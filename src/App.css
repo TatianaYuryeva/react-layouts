@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+body,
+.button {
+  font-family: 'Inter', sans-serif;
+}
+
+.main-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.icon {
+  text-align: right;
+}
+
+.material-icons {
+  margin-right: 7px;
+
+  text-align: right;
+  font-size: 40px;
+
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 240px;
+  height: 240px;
+  margin: 12px;
+  padding: 28px;
+
+  text-align: center;
+
+  background-size: contain;
+  border-radius: 8px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.color {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.card_purchase-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.button {
+  padding: 6px 12px;
+
+  color: #ff6500;
+  font-size: 16px;
+
+  background-color: transparent;
+  border: 1px solid #ff6500;
+  border-radius: 25px;
+}
+
+.price {
+  color: #ff6500;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 100px;
+  margin-bottom: 12px;
+
+  background-color: #f5f5f5;
+  border-radius: 8px;
+
+  padding: 0 20px;
+}
+
+.item_img {
+  max-height: 100px;
+}
+
+.item_color {
+  margin-bottom: 0;
+}
